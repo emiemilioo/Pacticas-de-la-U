@@ -1,0 +1,13 @@
+cadena= input("Escriba la frase a analizar: ")
+cadena= cadena.strip(" ").lower()
+lista= list(cadena)
+dic= {"a":0, "e":0, "i":0, "o":0, "u":0}
+for elem in lista:
+    for vocal in dic.keys():
+        if elem==vocal:
+            dic[vocal]+=1
+
+vocales = open("vocales.txt","w")
+vocales.write(cadena+"\n")
+for clave, valor in dic.items():
+    vocales.write(f"{clave}:{valor}\n")
