@@ -1,0 +1,5 @@
+10,Stream en vivo,610.0,http://example.com/stream.mp4
+7,Video tutorial,447.0,http://example.com/video.mp4
+2,Anuncio importante,425.0
+8,Podcast episodio 1,425.0,http://example.com/audio.mp3
+6,Foto del evento,330.0,http://example.com/foto.jpg

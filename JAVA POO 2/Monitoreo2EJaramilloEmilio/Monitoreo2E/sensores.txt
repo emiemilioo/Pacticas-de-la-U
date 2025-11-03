@@ -1,0 +1,7 @@
+tipo;id;ubicacion;valorMin;valorMax
+Temperatura;S01;Laboratorio;10;30
+Humedad;S02;Almacén;20;80
+Temperatura;S03;Oficina;15;28
+Temperatura;S04;Auditorio;27;10
+Humedad;S05;Sala de servidores;30;90
+Temperatura;S06;Exterior;-5;35
