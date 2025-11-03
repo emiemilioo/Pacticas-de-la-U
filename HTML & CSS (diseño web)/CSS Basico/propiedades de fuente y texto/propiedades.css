@@ -1,0 +1,36 @@
+p{
+    color:brown;
+
+    font-family: monospace,'Times New Roman', Times, serif;
+    /*en las tipografias se puede poner una coma y asi agg mas tipografias, esto tiene como bojetivo que si una no carga la otra se pueda cargar y asi sucesivamente */
+    font-style: italic;
+    /**/
+    font-size:20px;
+    font-weight: 50px;
+    /*si se aplica bolder lo que hace es automaticamente mas gruesa pero bold es por defecto 700*/
+    text-align: left;
+    /*esta propiedad alinea mis elementos*/
+
+    text-decoration: wavy underline;
+    /*esta propiedad sirve para poner subrayados a las letras, se puede poner varias decoraciones*/
+
+    line-height: 1.5;
+    /*sirve como interliniado*/
+
+    letter-spacing: 2;
+    /*espacio entre la letra*/
+
+    text-transform: capitalize;
+    /*con esta propiedad se puede trasnformar en mayusculas o minusculas*/
+    
+}
+
+h1{
+    text-align: center;
+    font-size: montserrat;
+    /*aqui ando modificando e insertando mi nueva fuente*/
+    font-weight: 900;
+    font-style: italic;
+}
+
+

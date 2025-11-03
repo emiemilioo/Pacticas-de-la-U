@@ -1,0 +1,22 @@
+.formulario{
+    background-color: bisque;
+    padding: 20px 20px 25px 15px;
+    /*esto es un shorthand, es una forma de hacer varias propiedades, ya que hay padding-top, bottom, left, right y eso separa de aucerdo a la direccion
+    se puee editar en el mismo varias direcciones, en el sentido de las agujas del reloj (arriba, derecha, abajo e izquierda) 
+    hay otra forma que es para declarar nomas con dos numeros:
+    padding: */
+
+}
+
+.formulario_input{
+    padding:10px;
+    width: 75%;
+    margin: 10px;
+    /*el margin separa o genera espacio entre elementos*/
+}
+
+.formulario_submit{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    max-width: fit-content;
+}

@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b5e7f6;
+    background: #bfcef8;
+    background: linear-gradient(to bottom, #c3e1f9 0%, #ffffff 100%);
+    background-repeat: no-repeat;   /* evita que se repita */
+    background-attachment: fixed;   /* opcional: que “pegue” al viewport */
+    min-height: 100vh; 
+}
+
+
+
+.card{
+    background: #2d2c51;
+    width:300px ;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 10px;
+    text-align: center;
+    /*el auto sirve para para centrar el elemento*/
+    box-shadow: 0 0 25px #070729;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 15px;
+}
+
+.card.maybe_class{
+    /*esto de clase.subclase.class sirve cuando hya errores por parte del navegador que lee solo una clase, esto ayuda mucho a corregir eso*/
+    background: #134f35;
+}
+
+.another_card{
+    background: #3c101c;
+}
+
+.card_tittle{
+    padding-top: 10px;
+    font-size: 24px;
+    margin: 0px;    
+    color:#eae4df
+}
+
+.card_subtittle{
+    font-size: 15px;
+    font-weight: 100;
+    margin: 0;
+    margin-top: 5px;
+    letter-spacing: 3px;
+    color: #a2a9df;
+}
+
+.card_content{
+    font-size:9px ;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: #bfcef8;
+    text-align: justify;
+}
+
+.card_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10px;
+}

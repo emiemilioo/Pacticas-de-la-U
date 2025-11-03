@@ -1,0 +1,24 @@
+body{
+    background: #4d2ee8;
+    margin: 0;
+}
+
+.box{
+    width: 300px;
+    height: 400x;
+    background: linear-gradient(to top, #39288b,transparent 30%);
+    margin: 0;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 20px;
+    border-top: 6px solid #120653;
+    
+}
+
+h1{
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+
+}

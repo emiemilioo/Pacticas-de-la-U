@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+
+
+.box{
+    width:100px;
+    height: 100px;
+    background: red;
+    margin: 10px;
+}
+
+.box-default{
+    padding: 25px;
+    border:10px solid saddlebrown;
+}
+
+.box-new{
+    padding: 25px;
+    border:10px solid saddlebrown;
+
+    /*el box sizing lo que hace es que si queremos que al momento de poner el cntenido de mi caja de 100 x 100 y agregamos borders o padding, que el tamaño de la caja no pase d elos limites que escificamos en el width y height, balanceara las propiedades de mi caja para que no pase de lo que especifique de mi caja no se vea afectado
+    box-sizing:border-box;
+    pero por defecto viene asi:
+    box-sizing:content-box; // con este ultimo va agrandado el tamaño de mi caja*/
+}

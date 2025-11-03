@@ -1,0 +1,33 @@
+div{
+    width: 300px;
+    
+    background: #ffa;
+    margin: auto;
+    margin-top: 50px;
+    /*las sombras agg profundidad  y realismo en las paginas ayudan a destacar elementos y legibilidad. Hay 3 tipos de sombras a las cajs, a el texto y a componentes*/
+
+    /*el primero es box shadow
+    recibe los primeros cuatro valores en este orden: cuanto va a dezplazarse a la derecha o izq si es asi son negativos, abajo o arriba, luego el desenfoque, y luego cuanto quieor que se expanda*/
+    box-shadow: 0px 0px 40px 0px #0008;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#494545
+}
+
+p{
+    text-shadow: 0 0 4px #ffcdaa;
+    /*las sombras de las fuentes no recibe expansion*/
+}
+
+img{
+    width: 100px;
+    border-radius: 100%;
+    box-shadow:0 0 10px 4px #000;
+    filter: drop-shadow(10px 0 100px 20px #000);
+    /*esta ultima propiedad mas que para imagenes con fondo son para imagenes trasnparents que no tienen fondo, para por ejemplo png confondos no sirve, como este caso*/
+}

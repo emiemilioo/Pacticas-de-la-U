@@ -1,0 +1,1 @@
+es como un input, pero permite cantidar mas cantidad de texto y en varias lineas

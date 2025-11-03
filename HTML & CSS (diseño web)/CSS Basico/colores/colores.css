@@ -1,0 +1,20 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background: salmon;
+    margin: 20px;
+
+    /*hay 3 tipos de colores mas comunes: RGB, hexadecimal y HSL*/
+    /*en rgb es tipo (256, 256, 256) donde 
+                    (rojo, verde, azul)*/
+
+    /*en cambio el hexa decimal qeu sigue la misma estrutura de rojo verde y azul es tipo asi:
+    color(valor 1 valor 2) donde el valor 1 escoges el color de los 16 y ese tono de los 16 tiene mas tonalidades entonces puede ser 0E, escojo la base 0 pero de tonalidad E
+    
+    Recuerda que el hexadecimal se basa en una base de 16 (0 1 2 3 4 5 6 a b c d e f)*/
+
+    /*pero si queremos algo mas abreviado y no queremos hacer una mezcla muy especifica basta con dividirla por ejemplo #ab0 , esto se lo interpreta como #aabb00*/
+
+    /*y bueno el cuarto valor es la opacidad, esto influye que tan fuerte sera nuesgro tono y se maneja de la misma manera, un ejmplo en hexadecimal seria #abc0*/
+    
+}

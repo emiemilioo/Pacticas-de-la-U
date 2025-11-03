@@ -1,0 +1,5 @@
+un comentario es un codigo solo es legible para el desarrollador, para el navegador sera visible pero no lo lee y no lo interpreta
+lo que ya venia haciendo que es <!--comentario-->
+
+los favicon son los icons que aparecen que aparecen en la pestana dando indentidad a nuestra pagina.
+normalmete las mdidas de losfvaicons son de 32 x32 o de 64 x 64 tine que ser una immgen que no sea pesada 

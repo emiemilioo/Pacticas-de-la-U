@@ -1,0 +1,46 @@
+body{
+    background: #987af2;
+    /*para un estilo gradiente se hace lo siguiente*/
+    background: linear-gradient(to top,#8bfbce, #f09680);
+    /*esto trasnforma el degradado lineales, recibe n valores, tambien se puede poner transparente*/
+
+    /*luego esta el gradiente radial que no hace falta el to top ya que va de forma radial pues :v*/
+}
+div{
+    width: 500px;
+    height: 200px;
+    
+    /*background: #d3d;*/
+    /*esta propiedad de background engloba la mayoria de propiedades de los fondos*/
+
+    /*position: absolute;*/
+    /*esto ayuda que se posicione¿*/
+
+
+    /*el 4to valor de los colores sirve mucho para ventanas modales*/
+
+    /*otra propiedad es la ba ckground image, que hace que pone una imagen de fondo a una caja mediate un url:*/
+
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyPZl736-SRZkJ6XL-AenYjM4zHR7qkfMybA&s") top / cover fixed rgb(231, 154, 180);
+    /*LA PROPIEDAD BACKGROUND AYUDA A SIMPLIFICAR LAS DEMAS EN UNA SOLA, y se puede poner una sola propiedad no necesariamente todas, es nec esaria esa barrita*/
+
+    /*esta es otra propiedad */
+    background-size: cover;
+
+    /*si se pone como valor al 100% ayuda que el tamaño dle fondo coincida aunque sea con el ancho*/
+
+    /*otro valor es el contain, que obliga ala imagen a adaptarse en el espacio que le dimos, hace lo posible para mostrarme al menos una vez la imagen*/
+
+    /*el otro valor es cover hace que se dapte y se ajsute a la resulucion para que la imagen entre en la dimension (aunque a veces sale cortada la imagen, pero para eso hacemos lo siguiente:*/
+
+    background-position: center;
+    /*tambien se puede poner coordenadas por ejemplo : 100px -100px*/
+
+    /*otra propiedad super chevere es el no repeat, que ayuda que la imagen no se repita varias veces, eso hace que la imagen se centre y si no entro complementamente en la dimesion muestra el color del fondo */
+    background-repeat: no-repeat;
+    /*ahi podriamos poner un fondo transparente si se desea, tambien se puede repetir en direcciones del eje por ejemplo repeat-x o repeat-y*/
+
+    /*otra propiedad es que la imagen se vaya viendo con el scroll*/
+    /* si se ponde "background-attachamente: fixed; lo que ace es que mientras se baja con el scroll se va viendo la imagen"*/
+    background-attachment: fixed;
+    }

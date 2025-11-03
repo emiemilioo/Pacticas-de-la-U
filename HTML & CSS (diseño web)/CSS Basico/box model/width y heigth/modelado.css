@@ -1,0 +1,10 @@
+div{
+    background-color: burlywood;
+    width: 200px;
+    height: 400px;
+    /*estas 2 propiedades, si no se declaran no se ve el relleno*/
+}
+
+h1{
+    background-color: antiquewhite;
+}

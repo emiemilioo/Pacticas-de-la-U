@@ -1,0 +1,25 @@
+li{
+    color:red;
+}
+
+span{
+    color:aqua;
+}
+
+/*Aqui como tal se esta modificando la clase mas no los objetos de esa clase*/
+ingrediente-faltante{
+    color:yellowgreen
+}
+/*Version corregida*/ 
+
+.ingrediente-faltante{
+    color:yellowgreen;
+}
+
+/*para modificar propiedades de un elemento con su identificacion se hace asi*/
+#ingrediente-secreto{
+    color:chartreuse;
+}
+
+/*lo malo de la identifiacion son elementos unicos y las clases se puede definir para varios elementos.
+Es decir los id srven para elementos muy en especifico y las clases para varios elementos*/

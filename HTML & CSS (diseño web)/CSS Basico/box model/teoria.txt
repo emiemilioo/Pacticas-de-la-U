@@ -1,0 +1,14 @@
+el modelado de caja o box model, es el concepto que nos da para identificar los elementos y disposicion de una pagina web.
+
+esta:
+1) content: es el nucleo del box model, es el area del elemento. Es el contenido como tal.
+
+2) padding: es el contenido de la caja o del elemento. Rellena espacio.
+
+3) border: es el borde de la caja, se puede modificar el estilo.
+
+4) margin: es el maergen o espacio que rodea nuestra caja que esta fuera del borde, separa el espacio de los elementos u otras cajas.
+
+5) border width: con esto se modifica el grosor del margen.
+
+6) Border radius: con esto se modifica el redondeo del margen.

@@ -1,0 +1,17 @@
+div{
+    background: red;
+    width: 150px;
+    margin:auto;
+    text-align: center;
+
+    border-width: 5px;
+    border-color: black;
+    border-style:dotted;
+    /*hay una propiedad que reemplaza estas 3 que es border.
+    Funciona asi:
+    border: width style color;
+    tambien sirve para editar solo una parte del borde asi:
+    border-unLado: width style color:*/
+
+    /*el border radius funciona igual que el padding puedo editar todos sus lados en el mismo sentido del reloj*/
+}

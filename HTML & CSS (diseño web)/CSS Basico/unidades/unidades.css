@@ -1,0 +1,51 @@
+/*html{
+    font-size: 18px;
+}*/
+
+div{
+    background: #ddd;
+    padding: 4cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-left: 5px solid #666;
+    margin:auto;
+    width: 50vw;
+    
+}
+
+h1{
+    margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #fff;
+}
+
+p{
+    color: #444;
+}
+
+span{
+    font-size: 16px;
+    font-weight: 200;
+    color: #aaa;
+}
+
+/*los pixeles (px) son medidas relativas, se us mucho para los textos, borders, paddings y cosas que ya hemos utilizado*/
+
+/*otras medidas absolutas utilizadas son mm, cm, m */
+
+/*entonces los pixeles al ser una medida relativa depende mucho dle entorno que esta, en cambio los cm y los mm son absolutas que al momento de imprimir se muestra tal cual es no es algo que se adapta al entorno, al momento de imprimir podria ser, entonces se recomienda trabajar con medidas relativas*/
+
+/*las unidades relativas depende de otro valor mas.
+una de las medidas es el porcentaje, que es respecto al tamaño que lo contiene*/ 
+
+/*otra medida es el em, depende mucho de la caja contenedora o del elmento padre, un ejemplo es que declaramos el div con un font-size de 30px, entonces 1 em en mi texo sera 30 px, y si ponemos 2 em eso sera el doble. Si el elemento padre no tiene el font-size declarado, lo que hace el em es buscar al elemento padre del elemento padre hasta qe encuentre el font-size. Y si no encuentra sera el por default del navegador (en chrome es de 16 px)*/
+
+
+/*tenemos el otro es el rem, que en vez de buscar el elemento padre, busca el elemento raiz(html)*/
+
+/*IMPORTANTE: si deseo que me ocupe el pociento de la ventana se usa cantidadvh o vw, eso es util para abrir ventanas modales.*/
+
+/*la otra medida es vmax o vmin, que basicamente se activa cuando uno de los vh o vw es mayor que el otro*/
+
+/*para fonts se usa mayormente em o rem, y las otras para dimensiones de layout*/
+
+/*tarea: ver en nuestras paginas como usan las medidas*/
