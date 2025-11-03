@@ -1,0 +1,8 @@
+Enfermedad, Cantidad de personas
+Gripe, 10
+Anemia, 13
+Tuberculosis, 14
+COVID, 18
+Dengue, 15
+Diabetes, 14
+Amigdalitis, 6

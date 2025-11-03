@@ -1,0 +1,101 @@
+Cedula,Diagnostico,Sintomas,Hospitalizacion
+0226184193,Gripe,nauseas|tos|inapetencia|escalofrios|erupcion cutanea|cansancio,NO
+1148161405,Anemia,sudoracion|sarpullido|cansancio|cefalea|escalofrios|fiebre,NO
+1444273611,Tuberculosis,vomitos|erupcion cutanea|sarpullido,SI
+1151400272,COVID,diarrea|nauseas|erupcion cutanea|cefalea|dolor huesos,NO
+1963696176,COVID,nauseas|sudoracion|fatiga,SI
+1712742670,Gripe,vomitos|erupcion cutanea|nauseas|escalofrios|tos|inapetencia,NO
+1833821604,Tuberculosis,cefalea|fiebre|sudoracion|sarpullido|dolor huesos,NO
+0226184193,Anemia,tos|cansancio|cefalea,NO
+1219554874,COVID,vomitos|cansancio|escalofrios|dolor huesos|tos,SI
+1173230834,Dengue,tos|sudoracion|diarrea|sarpullido|erupcion cutanea|cansancio,SI
+0725186176,Dengue,erupcion cutanea|diarrea|dolor huesos|fiebre|vision borrosa,SI
+0692453330,Anemia,sarpullido|dolor huesos|fatiga|vomitos,SI
+1688318849,Gripe,cansancio|fatiga|fiebre,NO
+1143639438,Dengue,dolor huesos|erupcion cutanea|cansancio|nauseas|tos,NO
+0210756912,Dengue,fiebre|escalofrios|cefalea|dolor huesos|diarrea|sarpullido,NO
+0226184193,COVID,vision borrosa|fatiga|escalofrios|inapetencia|sarpullido|sudoracion,NO
+0272592766,COVID,fatiga|dolor huesos|vomitos|sarpullido|escalofrios,NO
+0692453330,Tuberculosis,nauseas|tos|fatiga|erupcion cutanea|cansancio,NO
+0272592766,COVID,vomitos|sarpullido|dolor huesos,SI
+0822304736,Anemia,dolor huesos|fiebre|vision borrosa,SI
+1151400272,Diabetes,sarpullido|sudoracion|vision borrosa|escalofrios|vomitos,NO
+0817442118,Amigdalitis,inapetencia|vision borrosa|sarpullido|erupcion cutanea|nauseas|escalofrios,NO
+1143639438,Diabetes,dolor huesos|erupcion cutanea|diarrea|sarpullido|cansancio,SI
+0114419724,Dengue,inapetencia|vision borrosa|sudoracion|tos,SI
+0201167826,Diabetes,erupcion cutanea|vomitos|vision borrosa|tos|cefalea,NO
+0966537668,COVID,fiebre|sarpullido|nauseas,NO
+0476475560,Amigdalitis,fatiga|vomitos|diarrea,SI
+0168999469,Anemia,cefalea|inapetencia|nauseas,NO
+1614359613,Dengue,nauseas|inapetencia|fatiga|erupcion cutanea|diarrea,SI
+1173230834,COVID,fiebre|erupcion cutanea|inapetencia|nauseas|fatiga|diarrea,NO
+0966537668,Anemia,nauseas|sarpullido|tos|escalofrios,SI
+0732109395,Gripe,dolor huesos|nauseas|sarpullido|diarrea|erupcion cutanea|vomitos,NO
+1219554874,Anemia,cansancio|fatiga|diarrea|sudoracion|inapetencia|nauseas,SI
+0476475560,Amigdalitis,sarpullido|diarrea|inapetencia|escalofrios|fatiga|vision borrosa,NO
+1360450684,Dengue,inapetencia|sarpullido|fatiga|cansancio,SI
+1143639438,COVID,sarpullido|cefalea|erupcion cutanea|diarrea,NO
+1833821604,Tuberculosis,vomitos|erupcion cutanea|cefalea|fiebre|diarrea,SI
+0966537668,Gripe,cansancio|erupcion cutanea|sudoracion|fiebre|sarpullido|inapetencia,NO
+1909274783,Anemia,tos|vomitos|vision borrosa|cefalea|sarpullido|fiebre,NO
+1832813056,Tuberculosis,tos|erupcion cutanea|vision borrosa|inapetencia|vomitos|nauseas,NO
+1985613358,Amigdalitis,dolor huesos|sudoracion|inapetencia|erupcion cutanea,NO
+0743409139,Gripe,fiebre|vomitos|escalofrios|inapetencia|dolor huesos|vision borrosa,SI
+1143639438,Tuberculosis,dolor huesos|inapetencia|diarrea,SI
+1985613358,Gripe,fatiga|escalofrios|dolor huesos|tos,NO
+0231001076,COVID,nauseas|fatiga|diarrea|inapetencia|cansancio|erupcion cutanea,NO
+1909274783,Amigdalitis,tos|inapetencia|fiebre|dolor huesos|erupcion cutanea|diarrea,SI
+0272592766,Anemia,cansancio|inapetencia|sudoracion|fiebre,NO
+0817442118,COVID,dolor huesos|vomitos|nauseas|erupcion cutanea|escalofrios|tos,NO
+1688318849,COVID,dolor huesos|tos|fiebre,SI
+1985613358,Anemia,inapetencia|sarpullido|vomitos,SI
+0687701566,COVID,sarpullido|fiebre|sudoracion|escalofrios|nauseas|vision borrosa,NO
+0114419724,Diabetes,fiebre|sudoracion|sarpullido|fatiga|diarrea|dolor huesos,NO
+0870158068,Anemia,sudoracion|vomitos|cefalea|vision borrosa|erupcion cutanea,NO
+0502150198,Diabetes,sarpullido|inapetencia|fatiga,NO
+1173230834,Anemia,escalofrios|fiebre|sudoracion,SI
+0272592766,COVID,dolor huesos|vision borrosa|cefalea|sudoracion,NO
+1688318849,Diabetes,escalofrios|cansancio|erupcion cutanea|tos,SI
+0114419724,Dengue,nauseas|tos|vomitos|fatiga|sarpullido,NO
+1219554874,Tuberculosis,vomitos|tos|dolor huesos|sudoracion,SI
+0529196197,Gripe,nauseas|tos|diarrea|cansancio|fiebre|inapetencia,SI
+0226184193,Tuberculosis,vomitos|cefalea|escalofrios,SI
+0725186176,Diabetes,cefalea|diarrea|fiebre|vision borrosa|sarpullido,NO
+0835988932,Tuberculosis,sudoracion|tos|nauseas|escalofrios,SI
+1832813056,Diabetes,erupcion cutanea|vomitos|fiebre|vision borrosa|diarrea,SI
+1444273611,Gripe,cansancio|inapetencia|vomitos|vision borrosa|dolor huesos,SI
+1219554874,Amigdalitis,inapetencia|fiebre|sarpullido|cefalea|erupcion cutanea|vision borrosa,NO
+1148161405,Diabetes,vomitos|tos|nauseas|sarpullido|fatiga|diarrea,NO
+1143639438,Amigdalitis,nauseas|cefalea|erupcion cutanea|vision borrosa|tos|diarrea,NO
+0226184193,Diabetes,cansancio|sudoracion|dolor huesos|tos|cefalea,NO
+1712742670,Dengue,vomitos|vision borrosa|tos,SI
+0743409139,Dengue,vision borrosa|inapetencia|sudoracion|erupcion cutanea|fiebre|nauseas,NO
+0329572146,Diabetes,fatiga|sudoracion|cansancio|tos|escalofrios,NO
+1833821604,Diabetes,dolor huesos|cefalea|cansancio,SI
+1444273611,Anemia,cefalea|sarpullido|cansancio|escalofrios,NO
+0903052978,COVID,erupcion cutanea|inapetencia|fiebre,NO
+0136842957,COVID,erupcion cutanea|fiebre|escalofrios|vomitos|dolor huesos,SI
+0226184193,Anemia,dolor huesos|nauseas|sudoracion|fiebre,SI
+0732109395,COVID,dolor huesos|fiebre|tos|erupcion cutanea|fatiga|sarpullido,NO
+1758610330,COVID,inapetencia|escalofrios|cefalea,NO
+1909274783,Anemia,sarpullido|nauseas|inapetencia,NO
+0743409139,COVID,cansancio|cefalea|fatiga|diarrea,NO
+1609673662,Tuberculosis,vomitos|vision borrosa|cansancio,NO
+0903052978,Dengue,sarpullido|vision borrosa|tos|dolor huesos,NO
+1909274783,Anemia,tos|inapetencia|dolor huesos|cefalea,SI
+1989047144,Tuberculosis,escalofrios|erupcion cutanea|diarrea|cansancio|cefalea|tos,SI
+0272592766,Tuberculosis,erupcion cutanea|fiebre|vision borrosa|cansancio|cefalea|sudoracion,SI
+0822304736,Dengue,fatiga|escalofrios|vision borrosa,NO
+1408890163,Diabetes,nauseas|cansancio|diarrea|fiebre|fatiga,NO
+1173230834,Tuberculosis,sudoracion|vision borrosa|diarrea|dolor huesos|cefalea|erupcion cutanea,NO
+1360450684,Gripe,fatiga|cefalea|sudoracion,NO
+0692453330,Anemia,cansancio|escalofrios|vomitos|diarrea|nauseas|inapetencia,SI
+0272592766,Dengue,vision borrosa|escalofrios|sarpullido|nauseas|fatiga|cansancio,SI
+1963696176,Dengue,vomitos|nauseas|escalofrios|sudoracion|diarrea,SI
+0329572146,Dengue,vomitos|sarpullido|sudoracion,SI
+0329572146,COVID,fatiga|cansancio|inapetencia|vomitos|tos,NO
+1712742670,Dengue,escalofrios|diarrea|vomitos|nauseas,SI
+1197887391,Tuberculosis,tos|nauseas|vomitos|sudoracion|fiebre|fatiga,NO
+1197887391,Diabetes,dolor huesos|fatiga|escalofrios,SI
+0610296681,Tuberculosis,fiebre|cefalea|fatiga|sarpullido|vision borrosa|inapetencia,NO
+0966537668,Dengue,diarrea|sudoracion|cefalea,NO

@@ -1,0 +1,15 @@
+tos
+sudoracion
+diarrea
+sarpullido
+erupcion cutanea
+cansancio
+dolor huesos
+fiebre
+vision borrosa
+nauseas
+escalofrios
+cefalea
+inapetencia
+fatiga
+vomitos

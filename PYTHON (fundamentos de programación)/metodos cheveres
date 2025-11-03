@@ -1,0 +1,120 @@
+---------
+METODOS !
+---------
+
+ENDSWITH--------------------------------------
+esta el metodo endswith(str) que me indica si una cadena de texto termina con el parametro que le ingrese, me devuelve un valor booleano 
+----------------------------------------
+
+Metodo util:------------------------------------------------------------
+print(type(a))  #me ayuda a ver que tipo de dato es mi vaariable o tambien puedo usar:
+"""
+for v in valores:
+    if isinstance(v, int):
+        print(v, "es un entero")
+    elif isinstance(v, str):
+        print(v, "es un string")
+    elif isinstance(v, float):
+        print(v, "es un float")
+"""
+---------------------------------------------------------------
+
+
+
+mas metodos comunes jiji:---------------------------------------------------------
+"""
+texto = "Hola Mundo"
+print(texto.lower())   # "hola mundo"
+print(texto.upper())   # "HOLA MUNDO"
+print(texto.capitalize()) # "Hola mundo"
+print(texto.title())   # "Hola Mundo"
+
+
+texto = "   hola   "
+print(texto.strip())   # "hola"   (quita espacios al inicio y al final)
+print(texto.lstrip())  # "hola   " (izquierda)
+print(texto.rstrip())  # "   hola" (derecha)
+
+
+texto = "Hola mundo"
+print(texto.find("mun"))   # 5 (posición donde empieza "mun")
+print(texto.index("mun"))  # 5 (igual que find, pero da error si no existe)
+print(texto.replace("mundo", "Python"))  # "Hola Python"
+
+
+texto = "manzana,pera,uva"
+print(texto.split(","))   # ['manzana', 'pera', 'uva']  (convierte en lista)
+print(" ".join(["Hola", "mundo"]))  # "Hola mundo"
+
+
+texto = "123"
+print(texto.isdigit())   # True (solo dígitos)
+print(texto.isalpha())   # False (no es solo letras)
+print(texto.isalnum())   # True (letras o números)
+print("hola".islower())  # True
+print("HOLA".isupper())  # True
+
+
+
+texto = "programar en Python"
+print(texto.startswith("programar"))  # True
+print(texto.endswith("Python"))       # True
+
+
+texto = "banana"
+print(texto.count("a"))  # 3 (cuenta cuántas veces aparece)
+print("ana" in texto)    # True (contiene "ana")
+print("xyz" not in texto) # True
+"""
+----------------------------------------------------------------
+
+METODO IMPORTANTE: .format
+def likes(names):
+    n = len(names)
+    return {
+        0: 'no one likes this',
+        1: '{} likes this', 
+        2: '{} and {} like this', 
+        3: '{}, {} and {} like this', 
+        4: '{}, {} and {others} others like this'
+    }[min(4, n)].format(*names[:3], others=n-2)
+
+    el * auna lista es como desempaquetado yel compilador d epython lo pega en orden de las llaves de mi f string, ya que cada bloque de llaves se pegara aqui porqur format lo interpret asi
+
+
+-----------------
+COLECCIONES     !
+----------------
+
+SETS-----------------------------------
+estan luego las colecciones llamadas sets que estas me ayudan a juntar por ejemplo dos colecciones y que se unifiquen sin que se repitan los elementos 
+----------------------------------------------
+MAP-----------------------------------------
+es un tipo de coleccion iterable que ayuda a operar o transformar los elementos de mi coleecion pero aplicandolo uno a uno, util parecido a las listas de comprension
+------------------------------------------
+
+
+------------
+LIBRERIAS   !
+-------------
+
+
+LIBRERIA RE--------------------------------------
+si deseo averiguar si algun dato esta dentro de un array o cualquier coleccion puedo importar la libreria reguex "(import re)" y utilizar el metodo sub
+"re.sub(r[expresion regular], lo que quiero que reemplaze, donde quiero que reemplaze)"
+una expresion regular "por lo genral va a acompañda de un r [] que indica que es un srting crudo, que dignifica que no compilara de manera especial caracteres especiales un ejemplo es el famoso salto de linea"
+una expresion regular no puede ser un entero pero si se puede cear expresiones que ayuden al compilador encontrar secuencias de numeros o enteros o flotantes:
+
+EJEMPLOS 
+"""
+import re
+texto = "Hay 123 manzanas y 45 peras"
+patron = r"[0-9]+"   # uno o más dígitos
+print(re.findall(patron, texto)) // esto me dara una lista con los digitos que hay en la cadena
+
+
+OTRO EJEMPLO
+re.match(r"^\d+$", "123")  # ✅ hace match (es un número entero)
+re.match(r"^\d+$", "hola") # ❌ no hace match
+"""
+-------------------------------------------------------------------------------------------
